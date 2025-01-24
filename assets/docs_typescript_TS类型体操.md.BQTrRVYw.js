@@ -1,0 +1,1 @@
+import{_ as t,c as e,o as s}from"./chunks/framework.BzDBnRMZ.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"docs/typescript/TS类型体操.md","filePath":"docs/typescript/TS类型体操.md"}'),c={name:"docs/typescript/TS类型体操.md"};function r(a,o,p,n,_,d){return s(),e("div")}const f=t(c,[["render",r]]);export{m as __pageData,f as default};

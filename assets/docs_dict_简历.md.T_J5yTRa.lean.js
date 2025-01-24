@@ -1,0 +1,1 @@
+import{_ as t,c as e,ae as i,o as l}from"./chunks/framework.BzDBnRMZ.js";const g=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"docs/dict/简历.md","filePath":"docs/dict/简历.md"}'),o={name:"docs/dict/简历.md"};function s(r,a,p,c,d,h){return l(),e("div",null,a[0]||(a[0]=[i("",10)]))}const n=t(o,[["render",s]]);export{g as __pageData,n as default};
