@@ -1,27 +1,29 @@
 import { defineConfig } from 'vitepress';
+import { typescriptMenu } from './menus/typescript';
+import { vue3Meun } from './menus/vue3';
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: 'My Awesome Project',
-  description: 'A VitePress Site',
+  title: "aymfx's 的小屋",
+  description: '心比天高，技术比纸薄，多学习一分，就多一分的收获',
   base: '/',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' },
-    ],
-
-    sidebar: [
+      { text: '首页', link: '/' },
       {
-        text: 'Examples',
+        text: '技术笔记',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' },
+          { text: 'typescript', link: '/docs/typescript/基础.md' },
+          { text: 'vue3', link: '/docs/vue3/reactivity.md' },
         ],
       },
     ],
-
+    sidebar: {
+      '/docs/typescript/': typescriptMenu,
+      '/docs/vue3/': vue3Meun,
+    },
+    outline: 'deep',
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' },
     ],
