@@ -15,7 +15,7 @@ export default defineConfig({
         text: '技术笔记',
         items: [
           { text: 'typescript', link: '/docs/typescript/基础.md' },
-          { text: 'vue3', link: '/docs/vue3/reactivity.md' },
+          { text: 'vue3', link: '/docs/vue3/准备工作.md' },
         ],
       },
     ],
