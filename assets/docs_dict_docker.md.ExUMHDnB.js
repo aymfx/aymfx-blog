@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as c}from"./chunks/framework.BzDBnRMZ.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"docs/dict/docker.md","filePath":"docs/dict/docker.md"}'),o={name:"docs/dict/docker.md"};function r(a,d,s,n,i,p){return c(),t("div")}const f=e(o,[["render",r]]);export{m as __pageData,f as default};
