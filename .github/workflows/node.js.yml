@@ -24,7 +24,7 @@ jobs:
           node-version: '18' # 指定 Node.js 版本为 18
 
       - name: Set up pnpm
-        run: |
+        run: | 
           npm install -g pnpm
           pnpm config set store-dir $HOME/.pnpm-store
 

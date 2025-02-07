@@ -1,6 +1,7 @@
 import { defineConfig } from 'vitepress';
 import { typescriptMenu } from './menus/typescript';
-import { vue3Meun } from './menus/vue3';
+import { vue3Menu } from './menus/vue3';
+import { distMenu } from './menus/dict';
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -21,7 +22,8 @@ export default defineConfig({
     ],
     sidebar: {
       '/docs/typescript/': typescriptMenu,
-      '/docs/vue3/': vue3Meun,
+      '/docs/vue3/': vue3Menu,
+      '/docs/dict/': distMenu,
     },
     outline: 'deep',
     socialLinks: [

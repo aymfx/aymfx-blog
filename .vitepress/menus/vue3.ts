@@ -1,4 +1,4 @@
-export const vue3Meun = [
+export const vue3Menu = [
   {
     text: '准备',
     items: [

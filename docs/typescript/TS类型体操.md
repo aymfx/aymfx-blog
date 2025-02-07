@@ -1,5 +1,6 @@
 // Partial
 
+```ts
 interface Todo {
   title: string;
   description: string;
@@ -23,3 +24,4 @@ type MyPartial<T> = {
 };
 
 type type2 = MyPartial<typeof todo2>;
+```
