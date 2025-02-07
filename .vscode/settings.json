@@ -1,9 +1,0 @@
-{
-  "markdown.copyFiles.destination": {
-    "**/*.md": "./public/images/${fileName}",
-    "docs/**/*.md": "./public/images/${fileName}"
-  },
-  "markdown.preferredPathStyle": "relative",
-  "markdown.editor.filePaste.enabled": "always",
-  "markdown.preview.breaks": true
-}
