@@ -10,4 +10,8 @@ export const travelMenu = [
       { text: '柳州游', link: '/post/travel/柳州游.md' },
     ],
   },
+  {
+    text: '2025',
+    items: [{ text: '成都再次游', link: '/post/travel/成都再次游.md' }],
+  },
 ];
