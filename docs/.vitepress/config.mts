@@ -30,15 +30,15 @@ export default defineConfig({
     logo: '/logo.jpg',
 
     nav: [
-      { text: '首页', link: '/' },
-      { text: '生活', link: '/post/life/index.md' },
-      { text: '旅游', link: '/post/travel/长沙游.md' },
-      { text: '摄影', link: '/post/pic/深圳湾公园拍鸟.md' },
+      { text: '🏡首页', link: '/' },
+      { text: '🚀生活', link: '/post/life/最喜欢的歌.md' },
+      { text: '🛳旅游', link: '/post/travel/长沙游.md' },
+      { text: '🤩摄影', link: '/post/pic/深圳湾公园拍鸟.md' },
       {
-        text: '技术笔记',
+        text: '🤡技术笔记',
         items: [
-          { text: 'typescript', link: '/post/typescript/基础.md' },
-          { text: '前端', link: '/post/it/index.md' },
+          { text: '🤣typescript', link: '/post/typescript/基础.md' },
+          { text: '😁前端', link: '/post/it/时序图.md' },
         ],
       },
     ],

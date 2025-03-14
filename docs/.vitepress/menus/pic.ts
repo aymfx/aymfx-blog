@@ -8,8 +8,6 @@ export const picMenu = [
   },
   {
     text: '2024',
-    items: [
-      { text: '深圳湾公园拍海鸥', link: '/post/pic/深圳湾公园拍海鸥.md' },
-    ],
+    items: [{ text: '第一次扫街', link: '/post/pic/第一次扫街.md' }],
   },
 ];

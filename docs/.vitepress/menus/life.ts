@@ -1,6 +1,6 @@
 export const lifeMenu = [
   {
-    text: '2022',
-    items: [{ text: '长沙游', link: '/post/life/长沙游.md' }],
+    text: '2023',
+    items: [{ text: '最喜欢的歌', link: '/post/life/最喜欢的歌.md' }],
   },
 ];
