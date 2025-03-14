@@ -38,19 +38,19 @@ blog:
 <h2 align="center">📸 我的生活记录</h2>
 
 <div class="photo-wall">
-  <a href="/pic/index" class="photo-item">
+  <a href="/post/pic/深圳湾公园拍鸟" class="photo-item">
     <img src="/images/cat.jpg" alt="我家的猫咪" title="十二" loading="lazy" />
     <div class="photo-desc">生活随拍</div>
   </a>
-  <a href="/life/index" class="photo-item">
+  <a href="/post/pic/深圳湾公园拍海鸥" class="photo-item">
     <img src="/images/huli.jpg" alt="生活随拍" title="生活" loading="lazy" />
     <div class="photo-desc">记录生活</div>
   </a>
-  <a href="/it/index" class="photo-item">
+  <a href="/post/it/时序图" class="photo-item">
     <img src="/images/ri.jpg" alt="编程日常" title="工作" loading="lazy" />
     <div class="photo-desc">编程日常</div>
   </a>
-  <a href="/travel/index" class="photo-item">
+  <a href="/post/travel/重庆五月天" class="photo-item">
     <img src="/images/shan.jpg" alt="旅游时光" title="旅游" loading="lazy" />
     <div class="photo-desc">旅游时光</div>
   </a>

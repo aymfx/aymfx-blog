@@ -6,6 +6,7 @@ import { typescriptMenu } from './menus/typescript';
 import { picMenu } from './menus/pic';
 import { lifeMenu } from './menus/life';
 import { itMenu } from './menus/it';
+import { travelMenu } from './menus/travel';
 
 // Vitepress 默认配置
 // 详见文档：https://vitepress.dev/reference/site-config
@@ -31,7 +32,8 @@ export default defineConfig({
     nav: [
       { text: '首页', link: '/' },
       { text: '生活', link: '/post/life/index.md' },
-      { text: '旅游', link: '/post/travel/index.md' },
+      { text: '旅游', link: '/post/travel/长沙游.md' },
+      { text: '摄影', link: '/post/pic/深圳湾公园拍鸟.md' },
       {
         text: '技术笔记',
         items: [
@@ -45,6 +47,7 @@ export default defineConfig({
       '/post/life/': lifeMenu,
       '/post/pic/': picMenu,
       '/post/it/': itMenu,
+      '/post/travel/': travelMenu,
     },
     socialLinks: [
       {
