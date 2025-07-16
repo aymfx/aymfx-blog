@@ -5,6 +5,6 @@ export const itMenu = [
   },
   {
     text: 'AI Cursor',
-    items: [{ text: 'AI Cursor', link: '/post/it/index.md' }],
+    items: [{ text: 'AI Cursor', link: '/post/it/cursor.md' }],
   },
 ];
