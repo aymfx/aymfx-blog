@@ -1,4 +1,5 @@
 import { defineConfig } from 'vitepress';
+import { ViteImageOptimizer } from 'vite-plugin-image-optimizer';
 
 // 导入主题的配置
 
@@ -54,6 +55,34 @@ export default defineConfig({
         icon: 'github',
         link: 'https://github.com/aymfx',
       },
+    ],
+  },
+  vite: {
+    plugins: [
+      ViteImageOptimizer({
+        // 图片优化配置
+        includePublic: true,
+        test: /\.(jpe?g|png|gif|svg)$/i,
+        logStats: true,
+        png: {
+          quality: 70,
+        },
+        jpeg: {
+          quality: 70,
+        },
+        jpg: {
+          quality: 70,
+        },
+        webp: {
+          lossless: true,
+        },
+        avif: {
+          lossless: true,
+        },
+        svg: {
+          multipass: true,
+        }
+      }),
     ],
   },
 });
