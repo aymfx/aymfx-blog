@@ -3,10 +3,9 @@ import { ViteImageOptimizer } from 'vite-plugin-image-optimizer';
 
 // 导入主题的配置
 
-import { typescriptMenu } from './menus/typescript';
-import { picMenu } from './menus/pic';
+import { typescriptMenu, nestMenu, vue3Menu, notesMenu } from './menus/notes';
+import { picMenu } from './menus/photograph';
 import { lifeMenu } from './menus/life';
-import { itMenu } from './menus/it';
 import { travelMenu } from './menus/travel';
 
 // Vitepress 默认配置
@@ -32,22 +31,27 @@ export default defineConfig({
 
     nav: [
       { text: '🏡首页', link: '/' },
-      { text: '🚀生活', link: '/post/life/最喜欢的歌.md' },
-      { text: '🛳旅游', link: '/post/travel/长沙游.md' },
-      { text: '🤩摄影', link: '/post/pic/深圳湾公园拍鸟.md' },
+      { text: '🚀生活', link: '/post/life/life.md' },
+      { text: '🛳旅游', link: '/post/travel/travel.md' },
+      { text: '🤩摄影', link: '/post/photograph/photograph.md' },
       {
         text: '🤡技术笔记',
         items: [
-          { text: '🤣typescript', link: '/post/typescript/基础.md' },
-          { text: '😁前端', link: '/post/it/时序图.md' },
+          { text: '前端', link: '/post/frontend/frontend.md' },
+          {
+            text: 'typescript',
+            link: '/post/frontend/typescript/基础.md',
+          },
+          { text: 'nest', link: '/post/frontend/nest/引导.md' },
         ],
       },
     ],
     sidebar: {
-      '/post/typescript/': typescriptMenu,
+      '/post/frontend/typescript/': typescriptMenu,
+      '/post/frontend/nest/': nestMenu,
+      '/post/frontend/': notesMenu,
       '/post/life/': lifeMenu,
-      '/post/pic/': picMenu,
-      '/post/it/': itMenu,
+      '/post/photograph/': picMenu,
       '/post/travel/': travelMenu,
     },
     socialLinks: [
@@ -81,7 +85,7 @@ export default defineConfig({
         },
         svg: {
           multipass: true,
-        }
+        },
       }),
     ],
   },

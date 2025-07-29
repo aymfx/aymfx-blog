@@ -38,19 +38,19 @@ blog:
 <h2 align="center">📸 我的生活记录</h2>
 
 <div class="photo-wall">
-  <a href="/post/pic/深圳湾公园拍鸟" class="photo-item">
+  <a href="/post/photograph/photograph" class="photo-item">
     <img src="/images/cat.jpg" alt="我家的猫咪" title="十二" loading="lazy" />
     <div class="photo-desc">生活随拍</div>
   </a>
-  <a href="/post/pic/深圳湾公园拍海鸥" class="photo-item">
+  <a href="/post/life/life" class="photo-item">
     <img src="/images/huli.jpg" alt="生活随拍" title="生活" loading="lazy" />
     <div class="photo-desc">记录生活</div>
   </a>
-  <a href="/post/it/时序图" class="photo-item">
+  <a href="/post/frontend/frontend" class="photo-item">
     <img src="/images/ri.jpg" alt="编程日常" title="工作" loading="lazy" />
     <div class="photo-desc">编程日常</div>
   </a>
-  <a href="/post/travel/重庆五月天" class="photo-item">
+  <a href="/post/travel/travel" class="photo-item">
     <img src="/images/shan.jpg" alt="旅游时光" title="旅游" loading="lazy" />
     <div class="photo-desc">旅游时光</div>
   </a>
@@ -175,7 +175,7 @@ const quotes = [
   '越努力越幸运',
   '一万年太久，只争朝夕',
   '我知道潮落之后一定有潮起，有什么了不起',
-  '那阳光碎裂在熟悉场景，好安静、一个人能背多少的往事，真不轻。谁的笑、谁的温暖的手心，我着迷、伤痕好像都变成了曾经。'
+  "生如夏花之灿烂，死如秋叶之静美"
 ]
 
 const currentQuote = ref(quotes[0])
