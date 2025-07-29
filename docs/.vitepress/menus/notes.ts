@@ -196,4 +196,43 @@ export const vue3Menu = [
   },
 ];
 
-export const notesMenu = [{ text: '引导', link: '/post/frontend/frontend.md' }];
+export const notesMenu = [
+  { text: '引导', link: '/post/frontend/frontend.md' },
+  {
+    text: '面试',
+    items: [{ text: '前端', link: '/post/frontend/notes/interview/前端.md' }],
+  },
+  {
+    text: '开发流程',
+    items: [
+      { text: '时序图', link: '/post/frontend/notes/开发流程/时序图.md' },
+    ],
+  },
+  {
+    text: '工程化',
+    items: [
+      {
+        text: 'docker基础',
+        link: '/post/frontend/notes/运行和监控/docker.md',
+      },
+    ],
+  },
+  {
+    text: 'AI学习',
+    items: [
+      {
+        text: 'curosr规则',
+        link: '/post/frontend/notes/AI学习/cursor.md',
+      },
+    ],
+  },
+  {
+    text: '前端工具',
+    items: [
+      {
+        text: '图片优化配置（Vite）',
+        link: '/post/frontend/notes/前端工具/image-optimization.md',
+      },
+    ],
+  },
+];
