@@ -205,6 +205,10 @@ export const notesMenu = [
         text: '浏览器事件循环',
         link: '/post/frontend/interview/事件循环.md',
       },
+      {
+        text: 'webpack用法',
+        link: '/post/frontend/interview/webpack.md',
+      },
     ],
   },
   {
