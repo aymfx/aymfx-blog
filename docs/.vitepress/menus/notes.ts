@@ -199,13 +199,22 @@ export const vue3Menu = [
 export const notesMenu = [
   { text: '引导', link: '/post/frontend/frontend.md' },
   {
-    text: '面试',
-    items: [{ text: '前端', link: '/post/frontend/notes/interview/前端.md' }],
+    text: '专题',
+    items: [
+      {
+        text: '浏览器事件循环',
+        link: '/post/frontend/interview/事件循环.md',
+      },
+    ],
   },
   {
     text: '开发流程',
     items: [
       { text: '时序图', link: '/post/frontend/notes/开发流程/时序图.md' },
+      {
+        text: 'git常用命令',
+        link: '/post/frontend/notes/开发流程/git常用命令.md',
+      },
     ],
   },
   {
@@ -213,7 +222,11 @@ export const notesMenu = [
     items: [
       {
         text: 'docker基础',
-        link: '/post/frontend/notes/运行和监控/docker.md',
+        link: '/post/frontend/notes/工程化/docker.md',
+      },
+      {
+        text: 'monorepo方案',
+        link: '/post/frontend/notes/工程化/monorepo方案.md',
       },
     ],
   },

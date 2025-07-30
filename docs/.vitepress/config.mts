@@ -15,7 +15,7 @@ export default defineConfig({
   lang: 'zh-cn',
   title: 'aymfx的博客',
   description: 'aymfx的博客主题，基于 vitepress 实现',
-  lastUpdated: true,
+  lastUpdated: false,
   head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
   themeConfig: {
     // 展示 2,3 级标题在目录中
@@ -26,7 +26,6 @@ export default defineConfig({
     // 默认文案修改
     returnToTopLabel: '回到顶部',
     sidebarMenuLabel: '相关文章',
-    lastUpdatedText: '上次更新于',
     logo: '/logo.jpg',
 
     nav: [
