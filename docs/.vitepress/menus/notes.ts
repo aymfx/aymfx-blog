@@ -209,6 +209,18 @@ export const notesMenu = [
         text: 'webpack用法',
         link: '/post/frontend/interview/webpack.md',
       },
+      {
+        text: '常用的设计模式',
+        link: '/post/frontend/interview/常用的设计模式.md',
+      },
+      {
+        text: '网络知识点',
+        link: '/post/frontend/interview/网络知识点.md',
+      },
+      {
+        text: '前端页面渲染方式',
+        link: '/post/frontend/interview/前端页面渲染方式.md',
+      },
     ],
   },
   {
