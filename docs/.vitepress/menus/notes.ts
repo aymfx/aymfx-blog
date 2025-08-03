@@ -183,14 +183,27 @@ export const nestMenu = [
   },
 ];
 
-export const vue3Menu = [
-  { text: '引导', link: '/post/frontend/vue3/引导.md' },
+export const interviewMenu = [
+  { text: '引导', link: '/post/frontend/interview/引导.md' },
   {
-    text: 'vue3学习笔记',
+    text: 'js基础',
     items: [
       {
-        text: '核心概念与响应式系统理解',
-        link: '/post/frontend/vue3/核心概念与响应式系统.md',
+        text: '基础知识（1）',
+        link: '/post/frontend/interview/基础知识-1.md',
+      },
+      {
+        text: '基础知识（2）',
+        link: '/post/frontend/interview/基础知识-2.md',
+      },
+    ],
+  },
+  {
+    text: '场景题',
+    items: [
+      {
+        text: '场景题（1）',
+        link: '/post/frontend/interview/场景题-1.md',
       },
     ],
   },
@@ -202,24 +215,48 @@ export const notesMenu = [
     text: '专题',
     items: [
       {
+        text: 'css的盒模型',
+        link: '/post/frontend/special/css的盒模型.md',
+      },
+      {
+        text: '如何设计好一个组件',
+        link: '/post/frontend/special/如何设计好一个组件.md',
+      },
+      {
         text: '浏览器事件循环',
-        link: '/post/frontend/interview/事件循环.md',
+        link: '/post/frontend/special/事件循环.md',
+      },
+      {
+        text: '原型链的理解',
+        link: '/post/frontend/special/原型链的理解.md',
+      },
+      {
+        text: '前端模块化演变',
+        link: '/post/frontend/special/前端模块化演变.md',
       },
       {
         text: 'webpack用法',
-        link: '/post/frontend/interview/webpack.md',
+        link: '/post/frontend/special/webpack.md',
       },
       {
         text: '常用的设计模式',
-        link: '/post/frontend/interview/常用的设计模式.md',
+        link: '/post/frontend/special/常用的设计模式.md',
       },
       {
         text: '网络知识点',
-        link: '/post/frontend/interview/网络知识点.md',
+        link: '/post/frontend/special/网络知识点.md',
       },
       {
         text: '前端页面渲染方式',
-        link: '/post/frontend/interview/前端页面渲染方式.md',
+        link: '/post/frontend/special/前端页面渲染方式.md',
+      },
+      {
+        text: '团队协作中的代码质量',
+        link: '/post/frontend/special/团队协作中的代码质量.md',
+      },
+      {
+        text: 'ESModules流程解析',
+        link: '/post/frontend/special/ESModules流程解析.md',
       },
     ],
   },

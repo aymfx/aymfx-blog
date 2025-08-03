@@ -3,7 +3,7 @@ import { ViteImageOptimizer } from 'vite-plugin-image-optimizer';
 
 // 导入主题的配置
 
-import { typescriptMenu, nestMenu, vue3Menu, notesMenu } from './menus/notes';
+import { typescriptMenu, nestMenu, interviewMenu, notesMenu } from './menus/notes';
 import { picMenu } from './menus/photograph';
 import { lifeMenu } from './menus/life';
 import { travelMenu } from './menus/travel';
@@ -42,12 +42,14 @@ export default defineConfig({
             link: '/post/frontend/typescript/基础.md',
           },
           { text: 'nest', link: '/post/frontend/nest/引导.md' },
+          // { text: '面试题', link: '/post/frontend/interview/引导.md' },
         ],
       },
     ],
     sidebar: {
       '/post/frontend/typescript/': typescriptMenu,
       '/post/frontend/nest/': nestMenu,
+      '/post/frontend/interview/': interviewMenu,
       '/post/frontend/': notesMenu,
       '/post/life/': lifeMenu,
       '/post/photograph/': picMenu,
